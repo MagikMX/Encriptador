@@ -1,0 +1,8 @@
+.footer {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    position: absolute;
+    top: 85vh;
+}

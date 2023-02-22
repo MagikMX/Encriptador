@@ -1,0 +1,19 @@
+.social {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 90vh;
+    width: 10%;
+}
+
+.social__icon {
+    filter: invert(66%) sepia(16%) saturate(342%) hue-rotate(152deg) brightness(87%) contrast(91%);
+    transition: all 400ms ease-in-out;
+}
+
+.social__icon:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(241deg) brightness(107%) contrast(107%);
+}

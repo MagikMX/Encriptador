@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- STYLES -->
+		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- BUTTONS CSS -->
+		<link rel="stylesheet" href="./css/buttons/buttons.css" />
+		<!-- OVERLAY CSS -->
+		<link rel="stylesheet" href="./css/overlay/overlay.css" />
+		<!-- SOCIAL -->
+		<link rel="stylesheet" href="./css/social/social.css" />
+		<!-- FOOTER CSS -->
+		<link rel="stylesheet" href="./css/footer/footer.css" />
+		<!-- RESPONSIVE CSS -->
+		<link rel="stylesheet" href="./css/responsive/responsive.css" />
+		<!-- FAVICON -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./img/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./img/favicon-32x32.png" />
+		|
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./img/favicon-16x16.png" />
+		<!-- TITLE -->
+		<title>Encripador | Alura Challenge</title>
+	</head>
+	<body>
+		<h2 class="titulo">Encriptador de Texto | Alura Challenge 01</h2>
+		<div class="container">
+			<div class="form-container encriptar-container">
+				<div class="resultado-encriptar">
+					<textarea
+						name=""
+						id="texto-Encriptar"
+						cols="30"
+						rows="10"
+						placeholder="Introduce tu texto a encriptar aquí..."
+						type="text"></textarea>
+					<p id="mensajeError">*Solo minúsculas y sin acentos*</p>
+					<button class="" id="encriptar">Encriptar</button>
+				</div>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-right">
+						<img
+							src="./img/alura-icono.png"
+							alt="logo-alura"
+							srcset=""
+							class="logo-alura" />
+						<div class="resultado-desencriptar">
+							<textarea
+								name=""
+								id="texto-Desencriptar"
+								cols="30"
+								rows="10"
+								placeholder="Ningún texto aún..."
+								readonly></textarea>
+							<button class="ghost" id="copiar" onclick="copiarTexto()">
+								Copiar
+							</button>
+							<button
+								class="ghost"
+								id="desencriptar"
+								onclick="btnDesencriptar()">
+								Desencriptar
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>Diseñado por Adrian Ayala</p>
+		</div>
+
+		<div class="social">
+			<a href="https://www.instagram.com/magikmx/" target="_blank"
+				><img src="./img/instagram.png" alt="Instagram" class="social__icon"
+			/></a>
+			<a href="https://github.com/MagikMX" target="_blank"
+				><img src="./img/github.png" alt="Github" class="social__icon"
+			/></a>
+			<a
+				href="https://www.linkedin.com/in/oscar-adrian-ayala-cervantes-64299a212/"
+				target="_blank"
+				><img src="./img/linkedin.png" alt="Instagram" class="social__icon"
+			/></a>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
